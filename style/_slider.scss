@@ -1,0 +1,182 @@
+//section slider
+
+
+// стили для первого варианта слайдера
+
+//img.slide {
+//  width: 100%;
+//  height: 100%;
+//}
+//div.quote {
+//  background-color: #53354a;
+//  width: 100%;
+//  padding-bottom: 15px;
+//  padding-top: 10px;
+//  text-align: center;
+//  position: relative;
+//  @media (min-width: 768px) {
+//    width: 50%;
+//    margin: 10% 0;
+//  }
+//}
+//blockquote {
+//  color: $main-color;
+//  font-weight: 400;
+//  font-family: "Cardo";
+//  font-size: 1rem;
+//  font-style: italic;
+//  line-height: 1rem;
+//  width: 90%;
+//  margin: auto;
+//  padding-bottom: 5px;
+//}
+//span.person {
+//    color: $main-color;
+//    font-family: $main-font;
+//    font-size: 0.8rem;
+//    font-weight: 700;
+//    line-height: 0.8rem;
+//    text-transform: uppercase;
+//    padding-bottom: 20px;
+//}
+//div.slider {
+//  width: 100%;
+//  max-width: 1900px;
+//  height: 280px;
+//  background-color: #53354a;
+//  @media (min-width: 400px) {
+//    height: 325px;
+//  }
+//  @media (min-width: 500px) {
+//    height: 360px;
+//  }
+//  @media (min-width: 576px) {
+//    height: 400px;
+//  }
+//  @media (min-width: 650px) {
+//    height: 440px;
+//  }
+//  @media (min-width: 700px) {
+//    height: 480px;
+//  }
+//  @media (min-width: 768px) {
+//    height: 200px;
+//  }
+//  @media (min-width: 900px) {
+//    height: 220px;
+//  }
+//  img {
+//    width: 100%;
+//    display: block;
+//    //position: absolute;
+//    @media (min-width: 768px) {
+//      width: 50%;
+//      float: right;
+//    }
+//  }
+//}
+//div.img {
+//  position: absolute;
+//  display: none;
+//}
+//.img.curry {
+//  display: block;
+//  @media (min-width: 768px) {
+//    display: inline-block;
+//  }
+//}
+//div.nav {
+//  background-color: #53354a;
+//  position: relative;
+//  top: 100%;
+//  .prev, .next {
+//    position: relative;
+//  }
+//  span {
+//    color: $main-color;
+//    font-size: 0.8rem;
+//    padding: 10px;
+//  }
+//  span:hover {
+//    text-decoration: underline;
+//  }
+//}
+
+
+
+//стили для Bootstrap Слайдера
+
+.slider-back {
+  background-color: #53354a;
+}
+.home-slider {
+  background: transparent;
+}
+.home-indicators {
+  .active {
+    background-color: #e84545;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+  }
+  li {
+    width: 1rem;
+    height:1.6rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+  }
+}
+img.slide {
+  width: auto;
+  height: auto;
+  padding: 0;
+}
+div.quote {
+  padding-bottom: 3rem;
+  padding-top: 15px;
+  text-align: center;
+  margin: auto;
+}
+blockquote {
+  color: $main-color;
+  font-weight: 400;
+  font-family: "Cardo";
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 1rem;
+  @media (min-width: 768px) {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+}
+h5.person {
+    color: $main-color;
+    font-family: $main-font;
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 0.8rem;
+    text-transform: uppercase;
+    padding: 1rem 0;
+}
+
+
+//section ready
+section.ready {
+  padding-bottom: 5rem;
+  text-align: center;
+}
+h3.ready {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 2rem;
+}
+p.ready-download {
+  color: #2d3033;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.1rem;
+  text-transform: uppercase;
+  padding-bottom: 5rem;
+}
+
+

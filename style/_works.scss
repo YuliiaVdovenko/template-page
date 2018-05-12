@@ -1,0 +1,147 @@
+//section work-list
+
+p.works {
+  color: #6c7279;
+  padding: 10px 0;
+}
+span.work {
+  font-family: $main-font;
+  font-size: 6rem;
+  padding-bottom: 10px;
+  color: $button-color;
+  display: inline-block;
+}
+
+ul.list {
+  text-align: center;
+}
+
+li.list-item {
+  padding-bottom: 2rem;
+}
+
+//section portfolio-list
+
+li.portfolio {
+  padding: 0;
+}
+img.project {
+  width: 100%;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+}
+div.img-border:hover .project{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+.padding{
+  padding: 0;
+}
+
+
+//popUp окно и трансформация при ховере
+div.img-border {
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  overflow: hidden;
+}
+
+div.hover {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: $button-color;
+  opacity: 0.8;
+  text-align: center;
+  margin: auto;
+  h3 {
+    font-family: $main-font;
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 400;
+    opacity: 0.8;
+    cursor: pointer;
+    text-transform: none;
+  }
+  h3:hover {
+    opacity: 1;
+    cursor: pointer;
+     }
+  p.user {
+    color: #ffffff;
+    font-size: 1rem;
+    opacity: 0.6;
+    padding: 0;
+  }
+  p.user:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+}
+
+div.img-border:hover .hover {
+  display: flex;
+  -webkit-animation: cssAnimation 1s 1 ease;
+  -moz-animation: cssAnimation 1s 1 ease;
+  -o-animation: cssAnimation 1s 1 ease;
+  @-webkit-keyframes cssAnimation {
+    from {
+      -webkit-transform: scale(2);
+    }
+    to {
+      -webkit-transform: scale(1);
+    }
+  }
+  @-moz-keyframes cssAnimation {
+    from {
+      -moz-transform: scale(2);
+    }
+    to {
+      -moz-transform: scale(1);
+    }
+  }
+  @-o-keyframes cssAnimation {
+    from {
+      -o-transform: scale(2);
+    }
+    to {
+      -o-transform: scale(1);
+    }
+  }
+}
+
+.popup {
+  background-color: transparent;
+  top: 25%;
+}
+.close_popup {
+  position: absolute;
+  bottom:102%;
+  left:95%;
+  font-size: 3rem;
+  color: $button-color;
+  @media (min-width: 768px) {
+    bottom:100%;
+    left:100%;
+  }
+
+}
+.imgpop {
+  border: 5px solid #fff;
+}
+
+.a-opacity {
+  opacity: 1;
+}
+
+

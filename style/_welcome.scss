@@ -1,0 +1,21 @@
+section.welcome {
+  padding: 20% 0;
+  //height: 100vh;
+  background: url("../images/layer-34.png") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  h2 {
+    color: #ffffff;
+  }
+  p.welcome {
+    color: #ffffff;
+  }
+}
+a.button {
+  background-color: $button-color;
+  padding: 10px;
+  border-radius: 5px;
+}
+a.button:hover {
+  background-color: red;
+}

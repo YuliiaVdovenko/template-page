@@ -1,0 +1,38 @@
+//section team
+
+ul.team {
+    text-align: center;
+}
+h3.name {
+    font-size: 1.7rem;
+    font-weight: 400;
+    padding: 20px 0;
+}
+h4.position {
+    color: $button-color;
+  }
+img.team {
+    width: 100%;
+    height: auto;
+}
+ul.social-list {
+    width: 100%;
+    padding-bottom: 20px;
+    text-align: center;
+}
+li.social-item{
+    text-align: center;
+    padding: 10px;
+}
+a.social {
+    color: #c6cacc;
+    border: 1px solid #e8ecee;
+    padding: 5px 10px;
+}
+
+a.social:hover {
+    background: $button-color;
+    color: $main-color;
+    border: 1px solid $button-color;
+}
+
